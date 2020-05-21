@@ -1,0 +1,476 @@
+/* 全局 */
+.hu_header {
+  background-color: white;
+  box-shadow: 2px -2px 20px 1px rgba(0, 0, 0, 0.09);
+}
+
+.add {
+  float: right;
+  font-weight: 600;
+  color: #e6a23c;
+}
+
+body {
+  background-color: #efeff4;
+}
+
+.lay {
+  height: 100%;
+}
+.van-tabs__content{
+      width: 100%;
+      height: calc(100% - 44px);
+      position: fixed;
+      left: 0;
+      z-index: 999;
+      overflow:scroll
+  }
+
+.text_area {
+  color: gray;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.round_btn{
+  width: 20vw;
+}
+
+.notify {
+  color: gray;
+  background-color: white;
+  height: 12vw;
+  width: 98%;
+  margin-left: 1%;
+  border-radius: 3vw;
+  margin-top: 1%;
+  padding: 0px 10px;
+  line-height: 12vw;
+  opacity: 0.8;
+}
+
+.content {
+  overflow-y: scroll;
+  position: fixed;
+  width: 100%;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.van-tabbar {
+  box-shadow: 1px -1px 9px 0px #ebedf0;
+}
+
+/*标题部分*/
+.toolbar-title-font {
+  font-size: 23px;
+  /*margin-top: 10px;*/
+}
+
+.toolbar-top {
+  //height: 46px!important;
+}
+
+.appName {
+  letter-spacing: 15px;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+
+  overflow: hidden;
+}
+
+.icon3 {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/*底部导航按钮*/
+.btn-nav {
+  color: #fec401 !important;
+  /*#f9c82e!important;*/
+  border: none;
+}
+
+.nav-text {
+  color: black !important;
+}
+
+.btn-nav-active {
+  border-top: 1px solid #fec401 !important;
+}
+
+/*主体部分*/
+.bodyPart {
+  background-color: #ffffff;
+  /*#f9f9f9;*/
+  margin-top: 20px;
+}
+
+.bodyPart1 {
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.bodyPart2 {
+  background-color: #f9f9f9;
+  /*#f9f9f9;*/
+  margin-top: 56px !important;
+  margin-bottom: 45px !important;
+}
+
+.catName {
+  /*border-left: 3px solid #fec401!important;*/
+  text-align: left;
+  font-size: 1.17em;
+}
+
+.catNameBefore {
+  width: 2px;
+  height: 1px;
+  background-color: #fec401;
+}
+
+.divider_ {
+  width: 100%;
+  height: 8px;
+  background-color: #f0f0f0 !important;
+  /*margin-top: 10px;*/
+}
+
+.divider_2 {
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0 !important;
+  /*margin-top: 10px;*/
+}
+
+.divider_3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.all {
+  background-color: #ffffff;
+}
+
+/*头像*/
+.user-photo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+  left: 150px;
+  top: 35px;
+  z-index: 100;
+}
+
+.flex {
+  /*text-align: center!important;*/
+}
+
+/* account */
+.iden {
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.iden_label {
+  font-size: 15px;
+  color: gray;
+  padding: 7px 12px;
+}
+
+#edit_depart {
+  border: 1px solid #4CD964;
+  float: right;
+  margin-right: 5%;
+  padding: 0px 3px;
+  font-size: 14px;
+  color: #4CD964;
+}
+
+#edit_depart1 {
+  color: black;
+  text-align: left;
+  right: 0px;
+  border: none;
+  padding: 14px 15px;
+  font-size: 17px;
+}
+
+#edit_depart2 {
+  font-size: 16px;
+  padding: 5px;
+}
+
+#edit_depart3 {
+  background: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  line-height: 1;
+  height: 12vw;
+}
+
+.account_title {
+  letter-spacing: 13px;
+  font-size: 16px;
+}
+
+header a {
+  color: #07bcb5;
+}
+
+#account_down {
+  color: black;
+  position: relative;
+  left: 3vw;
+}
+
+/*test*/
+
+.newstwoadd_head {
+  background: #FFFFFF;
+}
+
+.newstwoadd_textarea {
+  height: 150px;
+}
+
+.newstwoadd_textarea1 {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.newstwoadd_ul1 {
+  margin-top: 20px;
+}
+
+.newstwoadd_div {
+  background: #FFFFFF;
+}
+
+.newstwoadd_div1 {
+  width: 40%;
+  float: left;
+  margin-top: 17px;
+  text-align: center;
+}
+
+.newstwoadd_text {
+  color: #7C8083;
+}
+
+.newstwoadd_text1 {
+  color: #7C8083;
+  margin-top: 10px;
+}
+
+.newstwoadd_text2 {
+  margin-top: 10px;
+}
+
+.newstwoadd_text3 {
+  color: #828589;
+  float: right;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.newstwoadd_img {
+  width: 20%;
+  float: left;
+  padding-top: 20px;
+}
+
+.text_ul {
+  border: none;
+  width: 95%;
+  margin: auto;
+  border-radius: 1vw;
+  padding: 4px 7px;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.text_from {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.text_select {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  background-color: white;
+}
+
+.text_btn {
+  font-size: 1.0625rem;
+  width: 98%;
+  margin: auto;
+  height: 10vw;
+  background-color: #ee0a24;
+  border: none;
+  padding: 0px;
+  line-height: 1;
+  color: white;
+}
+
+.show_set {
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+
+.show_set_radio {
+  display: inline-block;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-radius: 5vw;
+  margin-right: 1vw;
+}
+
+.select_choose_date {
+  background: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #C8C7CC;
+}
+
+.text_show_set {
+  background: white;
+  overflow: hidden;
+  color: #929292;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text_use_detail {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.little_time1 {
+  width: 1.6vw;
+  height: 30px;
+  background: #CCCCCC;
+  float: left;
+}
+
+.text_use_detail_time {
+  height: 50px;
+  width: auto;
+  float: left;
+}
+
+.hu_time {
+  color: #999;
+  font-size: 13px;
+  width: 2vw;
+  position: relative;
+  top: 30px;
+  right: 0.375rem;
+}
+
+.select_use_detail li {}
+
+.order_people {
+  padding: 10px 0px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+button#new_meet:enabled:active {
+  background-color: rgb(80, 188, 170);
+  border: none;
+}
+
+/*common.js*/
+.common {
+  background-color: white;
+  padding: 11px 15px;
+  margin-top: 2vw;
+  border-radius: 2vw 2vw 0 0;
+  line-height: 2.3;
+}
+
+.common_title {
+  border-bottom: 1px solid #c8c7cc;
+  color: gray;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.little_time2 {
+  width: 3.4vw;
+  height: 30px;
+  background: #CCCCCC;
+  float: left;
+  margin-right: .1vw;
+}
+
+/* room.vue */
+.room_detail {
+  background: white;
+  padding: 10px 7vw;
+  font-size: 14px;
+  color: gray;
+  line-height: 27px;
+  box-shadow: none;
+  margin: 5px 0px 0px;
+}
+
+.room_use_three {
+  background-color: white;
+  margin-top: 2vw;
+  padding: 15px 5px 30px 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.room_icon {
+  color: #ffe694;
+  float: left;
+  width: 24px;
+}
+
+.room_use_detail {
+  overflow: hidden;
+  padding-left: 3vw;
+  margin: 3vw 0;
+}
+
+.room_use {
+  width: 100%;
+}
+
+.room_btn {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: white;
+  box-shadow: -4px -1px 20px 3px #88888847;
+}
